@@ -5,8 +5,8 @@
 # Package related
 WEBHOOK_BINARY_NAME=webhook
 WEBHOOK_INSTALLER_BINARY_NAME=webhook_installer
-PACKAGE=sriov-dp-admission-controller
-ORG_PATH=github.com/redhat-nfvpe
+PACKAGE=ose-sriov-dp-admission-controller
+ORG_PATH=github.com/openshift
 REPO_PATH=$(ORG_PATH)/$(PACKAGE)
 GOPATH=$(CURDIR)/.gopath
 GOBIN=$(CURDIR)/bin

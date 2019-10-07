@@ -16,8 +16,9 @@ package main
 
 import (
 	"flag"
+
 	"github.com/golang/glog"
-	"github.com/redhat-nfvpe/sriov-dp-admission-controller/pkg/installer"
+	"github.com/openshift/ose-sriov-dp-admission-controller/pkg/installer"
 )
 
 func main() {
